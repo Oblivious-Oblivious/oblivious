@@ -208,8 +208,6 @@ a:hover {
 .form-row .form-control:focus,
 .form-submit textarea:focus {
     outline: 0;
-    color: #f0f0f0;
-    background-color: #ED5D40;
 }
 
 .form-submit textarea {
@@ -226,7 +224,7 @@ a:hover {
 form button {
     width: 100%;
     color: #f0f0f0;
-    background-color: #158673;
+    background-color: #ED5D40;
     border: none;
     font-family: "Raleway", sans-serif;
     padding: 20px;
