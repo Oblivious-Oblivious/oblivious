@@ -1,12 +1,16 @@
 /* Josefin Sans */
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;700&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap');
 
 body {
-    font-family: "Josefin Sans", sans-serif;
+    /* font-family: "Josefin Sans", sans-serif; */
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
     
-    color: rgb(235, 235, 235);
-    background-color: rgb(20, 20, 20);
+    /* color: rgb(235, 235, 235); */
+    /* background-color: rgb(20, 20, 20); */
+    color: #1f1f1f;
+    background-color: #f0f0f0;
 }
 
 header {
@@ -196,18 +200,19 @@ a:hover {
     border: none;
     font-size: 20px;
     padding: 5px;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Raleway", sans-serif;
     padding: 20px 0;
 }
 
 .form-row .form-control:focus,
 .form-submit textarea:focus {
     outline: 0;
-    background-color: yellow;
+    color: #f0f0f0;
+    background-color: #ED5D40;
 }
 
 .form-submit textarea {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Raleway", sans-serif;
     width: 100%;
     border: none;
     padding: 0;
@@ -219,10 +224,10 @@ a:hover {
 
 form button {
     width: 100%;
-    color:rgb(235, 235, 235);
-    background-color: #4cc24c;
+    color: #f0f0f0;
+    background-color: #158673;
     border: none;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Raleway", sans-serif;
     padding: 20px;
     font-size: 20px;
 }
